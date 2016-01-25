@@ -1,5 +1,9 @@
 This script is mainly for eclipse/ant user who has problem building their android app because of the 65535 methods limit
 
+In a word, if you encountered a `Unable to execute dex: method ID not in [0, 0xffff]: 65536` error, this is for you.
+
+> Note: For gradle/android studio users, google has posted a fix [here](http://developer.android.com/intl/ru/tools/building/multidex.html)
+
 It contains a original copy of google play serivce v28, which you can be customized based on your project
 
 ## How to customize your own Google Play Service Package
@@ -39,16 +43,7 @@ It contains a original copy of google play serivce v28, which you can be customi
 | 28 | - | - | support-v4-23.0.0 | - | 27 |
 | 29 | - | - | palete-v7-23.0.0 | - | 27,28 |
 
+## Links
+All Credit gose to @dextorer for his great [blog](https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71#.627jhqeu8) and [gist](https://gist.github.com/dextorer/a32cad7819b7f272239b)
 
-Origial blog post https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71#.627jhqeu8
-
-gist from here https://gist.github.com/dextorer/a32cad7819b7f272239b
-
-Google Play Service list
-https://developers.google.com/android/guides/setup
-
-For gradle/android studio users, you can follow the official google documentation to add multidex support
-http://developer.android.com/intl/ru/tools/building/multidex.html
-
-Google Play Service dependency table
-http://qiita.com/yyama2/items/ef717383f776429abaa4
+Dependency data is from [yyama2](http://qiita.com/yyama2)'s [blog](http://qiita.com/yyama2/items/ef717383f776429abaa4)
