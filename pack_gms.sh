@@ -9,7 +9,7 @@
 #
 
 PLAY_SERVICES_PATH=$ANDROID_SDK_ROOT/extras/google/m2repository/com/google/android/gms
-PLAY_SERVICES_VERSION=9.0.1
+PLAY_SERVICES_VERSION=9.4.0
 
 PLAY_SERVICES_FILENAME="google-play-services.jar"
 PLAY_SERVICES_TEMP_DIR="google-play-services-temp"
