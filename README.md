@@ -6,6 +6,12 @@ In a word, if you encountered a `Unable to execute dex: method ID not in [0, 0xf
 
 It contains a original copy of google play serivce v28, which you can be customized based on your project
 
+## How update full Google Play Service Package
+1. edit `pack_gms.sh` and insert your `ANDROID_SDK_ROOT` and the `PLAY_SERVICES_VERSION` (it must be available in `$ANDROID_SDK_ROOT/extras/google/m2repository/com/google/android/gms/play-services`)
+2. run `pack_gms.sh`
+3. done, you have a new `google-play-services.jar` with `PLAY_SERVICES_VERSION` chosen version
+4. you can customize it with a lite strip version, enabling/disabling the services you want, using the following instructions
+
 ## How to customize your own Google Play Service Package
 1. edit strip.conf to enable/disable sevice as you want
 2. run strip_play_services.sh
