@@ -9,7 +9,12 @@
 #
 
 #INSERT HERE YOUR ANDROID SDK PATH
-ANDROID_SDK_ROOT=/Users/Astrovic/Dati/Applicazioni/android-sdk
+if [ -z ${ANDROID_SDK_ROOT+x} ];
+    then echo "failed to find ANDROID_SDK_ROOT, please set it to your android sdk path"; 
+else echo "ANDROID_SDK_ROOT is set to '$ANDROID_SDK_ROOT'"; 
+fi
+
+# ANDROID_SDK_ROOT=/Users/Astrovic/Dati/Applicazioni/android-sdk
 
 PLAY_SERVICES_PATH=$ANDROID_SDK_ROOT/extras/google/m2repository/com/google/android/gms
 PLAY_SERVICES_VERSION=10.0.1
