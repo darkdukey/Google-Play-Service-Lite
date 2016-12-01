@@ -23,11 +23,12 @@ It contains a original copy of google play serivce 10.0.1(v38), which can be cus
 Check out the dependency table [here](docs/gps_dependency.md)
 
 ## Credits
-All Credit gose to @dextorer for his great [blog](https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71#.627jhqeu8) and [gist](https://gist.github.com/dextorer/a32cad7819b7f272239b)
+All Credit gose to [dextorer](https://github.com/dextorer) for his great [blog](https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71#.627jhqeu8) and [gist](https://gist.github.com/dextorer/a32cad7819b7f272239b)
 
 Dependency data is from [yyama2](http://qiita.com/yyama2)'s [blog](http://qiita.com/yyama2/items/ef717383f776429abaa4)
 
 Contributors
-@darkdukey
-@yinjimmy
-@Astrovic
+
+[yinjimmy](https://github.com/yinjimmy)
+
+[Astrovic](https://github.com/Astrovic)
