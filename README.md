@@ -27,8 +27,6 @@ All Credit gose to [dextorer](https://github.com/dextorer) for his great [blog](
 
 Dependency data is from [yyama2](http://qiita.com/yyama2)'s [blog](http://qiita.com/yyama2/items/ef717383f776429abaa4)
 
-Contributors
-
+__Contributors__
 [yinjimmy](https://github.com/yinjimmy)
-
 [Astrovic](https://github.com/Astrovic)
