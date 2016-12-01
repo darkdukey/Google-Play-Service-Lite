@@ -8,18 +8,21 @@
 # Author: Jimmy Yin (jimmy.yin5@gmail.com)
 #
 
+#INSERT HERE YOUR ANDROID SDK PATH
+ANDROID_SDK_ROOT=/Users/Astrovic/Dati/Applicazioni/android-sdk
+
 PLAY_SERVICES_PATH=$ANDROID_SDK_ROOT/extras/google/m2repository/com/google/android/gms
-PLAY_SERVICES_VERSION=9.4.0
+PLAY_SERVICES_VERSION=10.0.1
 
 PLAY_SERVICES_FILENAME="google-play-services.jar"
 PLAY_SERVICES_TEMP_DIR="google-play-services-temp"
-PLAY_SERVICES_STRIP_FILE="config.conf"
+PLAY_SERVICES_STRIP_FILE="gms_lite.conf"
 PLAY_SERVICES_NESTED_PATH="com/google/android/gms"
 PLAY_SERVICES_OUTPUT_FILE="google-play-services-full.jar"
 
 pack_gms() {
     echo ""
-    echo "Packing google play services ..."
+    echo "Packing google play services from " + $PLAY_SERVICES_PATH + "..."
     echo ""
 
     PLAY_SERVICES_STRIP_FILE=$1
