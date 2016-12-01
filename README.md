@@ -26,3 +26,8 @@ Check out the dependency table [here](docs/gps_dependency.md)
 All Credit gose to @dextorer for his great [blog](https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71#.627jhqeu8) and [gist](https://gist.github.com/dextorer/a32cad7819b7f272239b)
 
 Dependency data is from [yyama2](http://qiita.com/yyama2)'s [blog](http://qiita.com/yyama2/items/ef717383f776429abaa4)
+
+Contributors
+@darkdukey
+@yinjimmy
+@Astrovic
