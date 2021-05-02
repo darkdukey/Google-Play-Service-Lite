@@ -20,7 +20,7 @@ PLAY_SERVICES_OUTPUT_FILE="google-play-services-STRIPPED.jar"
 # Check if file exists in the same directory
 if [ ! -f $PLAY_SERVICES_FILENAME ]; then
 	echo "\nPlease put this script in the Play Services JAR location, then run it again\n\n"
-	exit -1
+	exit 1
 fi
 
 # Preventive cleanup 
